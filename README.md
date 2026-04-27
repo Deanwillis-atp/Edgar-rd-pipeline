@@ -4,11 +4,10 @@
 R&D expense spikes predict short term price declines with 55-68% accuracy across 1404 public companies, scaling with spike magnitude.
 1.82GB SEC EDGAR data, 101k companies, ETL from zip to MySQL to Python, yfinance enrichment.
 
-A spike is identified when exactly one quarter's R&D expense exceeds the average of all three quarters for that year.
-Spike percent is defined by the percentage increase in spending than normal(three quarters).
-Spikes are sorted into buckets (10%, 10%-20%..etc) 
-Decreases are defined by stock prices that are taken 30 days before and after spike date.
-
+1. A spike is identified when exactly one quarter's R&D expense exceeds the average of all three quarters for that year.
+2. Spike percent is defined by the percentage increase in spending than normal(three quarters).
+3.Spikes are sorted into buckets (10%, 10%-20%..etc) 
+4.Decreases are defined by stock prices that are taken 30 days before and after spike date.
 
 ## Data found 
 <img width="1033" height="568" alt="Screenshot 2026-04-26 at 8 37 51 PM" src="https://github.com/user-attachments/assets/da20300c-f62d-457d-974e-b9e9bd48451c" />
