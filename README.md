@@ -17,7 +17,7 @@ R&D expense spikes predict short term price declines with 55-68% accuracy across
 
 
 
-## limitations
+## Limitations
 1. Stock price only taken in a 30 day window may predate 10-k filings.
 2. Only 3 quarters of data (quarter 4 not filed in 10-k).
 3. Data taken only from 2014-2023 (not live data).
