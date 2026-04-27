@@ -17,10 +17,11 @@ Decreases are defined by stock prices that are taken 30 days before and after sp
 
 
 ## limitations
-Stock price only taken in a 30 day window may predate 10-k filings.
-Only 3 quarters of data (quarter 4 not filed in 10-k).
-Data taken only from 2014-2023 (not live data).
-Data lost due to issues with ticker symbols.
+1. Stock price only taken in a 30 day window may predate 10-k filings.
+2. Only 3 quarters of data (quarter 4 not filed in 10-k).
+3. Data taken only from 2014-2023 (not live data).
+4. Data lost due to issues with ticker symbols.
+
 I plan on making a version without any of the listed limitations
 
 
