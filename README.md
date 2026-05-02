@@ -2,7 +2,7 @@
 
 ## Overview
 R&D expense spikes predict short term price declines with 55-68% accuracy across 1404 public companies, scaling with spike magnitude.
-1.82GB SEC EDGAR data, 101k companies, ETL from zip to MySQL to Python, yfinance enrichment.
+1.82GB SEC EDGAR data, 101k companies, ETL from zip to MySQL to Python, yfinance enrichment. 
 
 ## Definitions
 1. A spike is identified when exactly one quarter's R&D expense exceeds the average of all three quarters for that year.
@@ -14,7 +14,12 @@ R&D expense spikes predict short term price declines with 55-68% accuracy across
 ## Data found 
 <img width="1033" height="568" alt="Screenshot 2026-04-26 at 8 37 51 PM" src="https://github.com/user-attachments/assets/da20300c-f62d-457d-974e-b9e9bd48451c" />
 
-
+## Analytical Queries
+1. Ranking the first 10 companies on spike percent.
+2. Sorting all companies average spike percentage into 4 buckets.
+3. Compairing the spike percentage to the prior filling dates spike percentage.
+4. Finding the running average of spike percentage per company.
+5. Finding the max spike percentage per company.
 
 
 ## Limitations
@@ -31,7 +36,7 @@ SEC EDGAR Financial Statement Data Sets (2014 Q1 - 2023 Q4)
 https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets-archive
 
 ## Tools Used
-- Python (zipfile, requests, sqlalchemy)
+- Python (yfinance, zipfile, requests, sqlalchemy)
 - MySQL
   
 
