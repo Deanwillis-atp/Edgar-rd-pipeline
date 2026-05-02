@@ -11,7 +11,7 @@ R&D expense spikes predict short term price declines with 55-68% accuracy across
 4. Decreases are defined by stock prices that are taken 30 days before and after spike date.
 
 
-## Data found 
+## Data Found 
 <img width="1033" height="568" alt="Screenshot 2026-04-26 at 8 37 51 PM" src="https://github.com/user-attachments/assets/da20300c-f62d-457d-974e-b9e9bd48451c" />
 
 ## Analytical Queries
